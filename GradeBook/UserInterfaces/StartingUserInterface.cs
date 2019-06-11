@@ -37,7 +37,7 @@ namespace GradeBook.UserInterfaces
             if (parts.Length != 4)
             {
                 Console.WriteLine("Command not valid, Create requires a name, "
-                    + "type of gradebook, if it's weighted (true/ false).");
+                    + "type of gradebook, if it's weighted (true / false).");
                 return;
             }
             var name = parts[1];
